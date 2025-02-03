@@ -1,0 +1,17 @@
+namespace MethodCall
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Main Method");
+
+            Main();
+        }
+        static void Main() 
+        {
+            Console.WriteLine("Main1 Method");
+
+        }
+    }
+}
